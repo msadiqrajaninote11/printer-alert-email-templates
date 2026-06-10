@@ -1,0 +1,151 @@
+```html id="indexhtml01"
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+}
+
+/* Header */
+.header{
+    background:#2c347d;
+    padding:25px;
+    text-align:center;
+}
+
+.header img{
+    width:140px;
+}
+
+/* Title */
+.title{
+    text-align:center;
+    padding:20px;
+    font-size:22px;
+    font-weight:bold;
+    color:#333;
+}
+
+/* Grid */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:30px;
+    max-width:1000px;
+    margin:auto;
+}
+
+/* Cards */
+.card{
+    background:#ffffff;
+    border-radius:10px;
+    padding:20px;
+    text-align:center;
+    border:1px solid #e5e5e5;
+    transition:0.2s;
+    text-decoration:none;
+    color:#333;
+    display:block;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Icons */
+.icon{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+/* Colors */
+.toner{color:#2c347d;}
+.magenta{color:#e91e63;}
+.cyan{color:#00bcd4;}
+.yellow{color:#fbc02d;}
+.service{color:#d32f2f;}
+.misfeed{color:#f57c00;}
+.waste{color:#607d8b;}
+
+/* Footer */
+.footer{
+    text-align:center;
+    padding:20px;
+    font-size:12px;
+    color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- Header -->
+<div class="header">
+    <img src="logo.png" alt="Company Logo">
+</div>
+
+<!-- Title -->
+<div class="title">
+    Printer Alert Monitoring System
+</div>
+
+<!-- Grid -->
+<div class="grid">
+
+    <a class="card toner" href="black.html">
+        <div class="icon">⚫</div>
+        Black Toner Alert
+    </a>
+
+    <a class="card cyan" href="cyan.html">
+        <div class="icon">🔵</div>
+        Cyan Toner Alert
+    </a>
+
+    <a class="card magenta" href="magenta.html">
+        <div class="icon">🟣</div>
+        Magenta Toner Alert
+    </a>
+
+    <a class="card yellow" href="yellow.html">
+        <div class="icon">🟡</div>
+        Yellow Toner Alert
+    </a>
+
+    <a class="card misfeed" href="misfeed.html">
+        <div class="icon">📄</div>
+        Misfeed Alerts
+    </a>
+
+
+    <a class="card waste" href="waste.html">
+        <div class="icon">🗑️</div>
+        Waste Toner Alerts
+    </a>
+
+    <a class="card toner" href="summary.html">
+        <div class="icon">📊</div>
+        Summary Dashboard
+    </a>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    © Monitoring System • Built for Service Operations
+</div>
+
+</body>
+</html>
+```
